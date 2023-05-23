@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: white;
+}
+
+.nav-link {
+    color: black;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color:white !important;
+    background-color: black;
+}
+
+.navbar-brand {
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content {
+    flex: 1;
+}
+
+.image {
+    background: url('Anis.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    height: auto;
+}
+
+.small {
+    font-weight: normal;
+}
+
+
+
+
