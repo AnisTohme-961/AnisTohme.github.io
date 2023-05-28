@@ -1,51 +1,48 @@
 .main {
-    
+    background-image: url('../images/galaxy.jpg');
     width: 100%;
     
 }
 
+.bluish-letter {
+    color:blue;
+    animation: fade-in 2s ease-in-out infinite alternate;
+}
+
+@keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+span {
+    color:blue;
+}
+
+.pop-out {
+    display: inline-block;
+    transition: transform 0.3s;
+  }
+
+  .pop-out:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+  }
+
 .main h3 {
     font-size: 4rem;
     font-weight: 700;
+    color:white;
 }
 
 .main h6{
     font-size: 1.4rem;
+    color:white;
     text-transform: uppercase;
-    line-height: 1;
-    border-bottom: 3px solid rgb(233, 20, 100);
-    width: 45%;
-}
-
-.main .bt1 {
-    height: 50px;
-    width: 130px;
-    background-color: rgb(233, 20, 100);
-    color: white;
-    outline: none;
-    border: none;
-    font-weight: bold;
-    border-radius: 5px;
-}
-
-.main .bt2 {
-    height: 50px;
-    width: 130px;
-    background-color: transparent;
-    color:rgb(233, 20, 100);
-    outline: none;
-    border: 1px solid rgb(233, 20, 100);
-    font-weight: bold;
-    border-radius: 5px;
-}
-
-.main .bt1:hover {
-    background-color: rgb(200, 20, 100);
-    transition: 0.5s ease;
-}
-
-.main .bt2:hover {
-    background-color: rgb(233, 20, 100);
-    transition: 0.5s ease;
-    color: white;
+    /* line-height: 1;
+    border-bottom: 3px solid black; */
+    width: 46%;
 }
