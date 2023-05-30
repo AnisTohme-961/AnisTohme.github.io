@@ -1,3 +1,9 @@
+footer {
+  background-color: black;
+  color: lightgray;
+
+}
+
 .social-link {
     display: inline-flex;
     align-items: center;

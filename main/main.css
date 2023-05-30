@@ -1,7 +1,12 @@
 .main {
-    background-image: url('../images/galaxy.jpg');
+    background-image: url('../images/background.webp');
     width: 100%;
     
+}
+
+.responsive-image{
+    max-width: 100%;
+    height: auto;
 }
 
 .bluish-letter {
@@ -35,14 +40,14 @@ span {
 .main h3 {
     font-size: 4rem;
     font-weight: 700;
-    color:white;
+    color:black;
 }
 
 .main h6{
     font-size: 1.4rem;
-    color:white;
+    color:black;
     text-transform: uppercase;
-    /* line-height: 1;
-    border-bottom: 3px solid black; */
+    line-height: 1;
+    border-bottom: 3px solid black;
     width: 46%;
 }

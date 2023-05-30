@@ -1,3 +1,9 @@
+.contact {
+    background-image: url('../images/contact_us.jpg');
+    width: 100%;
+}
+
+
 .btn-contact {
     height: 50px;
     width: 130px;
@@ -19,7 +25,7 @@
     
     width: 70px;
     height: 70px;
-    background-color: lightgrey;
+    background-color: palevioletred;
     color: black;
     padding: 12px;
     display: inline-block;
@@ -29,19 +35,28 @@
       
 }
 
-.circle:hover {
-    background-color: black;
-    transition: 0.4s ease;
+.fa-address-book {
+    color: white;
+    cursor: pointer;
+}
+
+.fa-phone-alt {
     color: white;
 }
+
+.fa-mail-bulk {
+    color: white;
+}
+
 
 .contact .contact-title{
     font-size: 3rem;
     font-weight: 900; 
+    color: palevioletred;
 }
 
 .contact .btn-submit {
-    background-color: black;
+    background-color: palevioletred;
     color:white;
     height: 50px;
     width: 130px;
@@ -50,15 +65,20 @@
 }
 
 .btn-submit:hover {
-    background: white;
-    color: black;
+    background: #248F6C;
+    color: white;
     transition: 0.3s ease;
-    border: 1px solid black;
+    border: 1px solid #248F6C;
+    cursor: pointer;
 
 }
 
-footer {
-    background-color: black;
-    color: lightgray;
+.stable {
+    resize: none;
+}
 
+#msg {
+    color:#248F6C;
+    margin-top: -10px;
+    display: block;
 }

@@ -1,3 +1,8 @@
+.about {
+    background-image: url('../images/about.webp');
+    width: 100%;
+}
+
 .about img {
     -webkit-box-shadow: 6px 4px 41px -10px  rgba(0,0,0,0.75);
     -moz-box-shadow: 6px 4px 41px -10px  rgba(0,0,0,0.75);
@@ -8,7 +13,9 @@
 .about h1 {
     font-size: 3rem;
     font-weight: 900;
+    color: brown;
 }
+
 
 .progress {
     background-color: rgb(220,220,220);
@@ -24,7 +31,7 @@
 .pro-value1 {
     animation: load1 3s normal forwards;
     border-radius: 50px;
-    background-color: black;
+    background-color: brown;
     height: 40px;
     width: 0;
 }
@@ -32,7 +39,7 @@
 .pro-value2 {
     animation: load2 3s normal forwards;
     border-radius: 50px;
-    background-color: black;
+    background-color: brown;
     height: 40px;
     width: 0;
 }
@@ -40,7 +47,7 @@
 .pro-value3 {
     animation: load3 3s normal forwards;
     border-radius: 50px;
-    background-color: black;
+    background-color: brown;
     height: 40px;
     width: 0;
 }
@@ -48,7 +55,7 @@
 .pro-value4 {
     animation: load4 3s normal forwards;
     border-radius: 50px;
-    background-color: black;
+    background-color: brown;
     height: 40px;
     width: 0;
 }
@@ -56,7 +63,7 @@
 .pro-value5 {
     animation: load5 3s normal forwards;
     border-radius: 50px;
-    background-color: black;
+    background-color: brown;
     height: 40px;
     width: 0;
 }
@@ -116,14 +123,14 @@
     width: 130px;
     outline: none;
     border: none;
-    background-color: black;
+    background-color: brown;
     color: white;
     border-radius: 5px;
 }
 
 .btn-download:hover {
     background-color: transparent;
-    color: black;
-    border: 1px solid black;
+    color: brown;
+    border: 1px solid brown;
     transition: 0.5s ease;
 }
