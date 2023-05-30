@@ -216,7 +216,9 @@
             const long = pos.coords.longitude;
             console.log(pos);
 
-            window.open(`https://www.openstreetmap.org/#map=16/${lat}/${long}`, '_blank');
+            const mapUrl = `https://www.openstreetmap.org/?mlat=${lat}&mlon=${long}#map=16/${lat}/${long}`;
+
+            window.open(mapUrl, '_blank');
             }
         
             function error() {
